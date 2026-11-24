@@ -12,8 +12,8 @@ menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
 }));
 
 const form = document.getElementById('contact-form');
-const status = form.querySelector('.form-status');
-form.addEventListener('submit', async (e) => {
+const status = form ? form.querySelector('.form-status') : null;
+if (form) form.addEventListener('submit', async (e) => {
   e.preventDefault();
   status.textContent = 'Sending...';
   try {
