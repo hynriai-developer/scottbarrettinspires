@@ -44,7 +44,7 @@ nav a:hover{color:var(--gold-dark)}
 .btn-block{display:block;text-align:center;width:100%}
 
 /* hero */
-.hero{background:linear-gradient(135deg,var(--navy),var(--navy-2));color:#fff;padding:110px 0 100px}
+.hero{background:linear-gradient(105deg,rgba(15,34,56,.93) 0%,rgba(15,34,56,.82) 45%,rgba(15,34,56,.55) 100%),url("images/hero.jpg") center/cover no-repeat;background-color:var(--navy);color:#fff;padding:130px 0 120px}
 .hero h1{color:#fff}
 .hero .eyebrow{color:var(--gold)}
 .lead{font-size:1.2rem;max-width:620px;color:#d6dfeb}
@@ -99,5 +99,5 @@ input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);border-col
   .two-col,.cards,.steps,.strip-inner{grid-template-columns:1fr}
   .card.featured{transform:none}
   .section{padding:60px 0}
-  .hero{padding:80px 0 70px}
+  .hero{padding:90px 0 80px;background-position:70% center}
 }
