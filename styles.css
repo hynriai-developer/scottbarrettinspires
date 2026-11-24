@@ -46,7 +46,7 @@ nav a:hover{color:var(--gold-dark)}
 .btn-block{display:block;text-align:center;width:100%}
 
 /* hero */
-.hero{background:linear-gradient(105deg,rgba(15,34,56,.93) 0%,rgba(15,34,56,.82) 45%,rgba(15,34,56,.55) 100%),url("images/hero.jpg") center/cover no-repeat;background-color:var(--navy);color:#fff;padding:130px 0 120px}
+.hero{background:linear-gradient(105deg,rgba(15,34,56,.78) 0%,rgba(15,34,56,.55) 45%,rgba(15,34,56,.25) 100%),url("images/hero.jpg?v=2") center/cover no-repeat;background-color:var(--navy);color:#fff;padding:130px 0 120px}
 .hero h1{color:#fff}
 .hero .eyebrow{color:var(--gold)}
 .lead{font-size:1.2rem;max-width:620px;color:#d6dfeb}
