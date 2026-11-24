@@ -145,3 +145,6 @@ nav a[aria-current="page"]{color:var(--gold-dark)}
 .pillars .pillar ul{color:#eef2f7}
 .pillars .ai-band{background:rgba(201,162,74,.12);border:1px solid var(--gold)}
 .pillars .ai-band>p{color:#e3eaf3}
+
+.picon{display:inline-grid;place-items:center;width:52px;height:52px;border-radius:14px;background:rgba(201,162,74,.16);color:var(--gold);margin-bottom:6px}
+.picon svg{width:28px;height:28px}
